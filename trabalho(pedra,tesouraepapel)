@@ -1,0 +1,28 @@
+jogador a = "papel"
+//ou pedra ou "tesora"
+jogador b = "tesoura"
+//ou papel ou pedra
+if (jogador a === jogador b){
+console.log('Empate')
+
+}
+else if (jogador a === 'papel '&& jogador b === 'pedra'){
+console.log('jogador a ganhou');
+
+}
+else if (jogador a === 'pedra' && jogador b === 'tesora'){
+console.log('jogador a ganhou');
+
+}
+else if('jogador a === 'tesoura' && jogador b === 'papel'){
+console.log('jogador a ganhou');
+
+}
+else
+console. log('jogador b ganhou');
+
+
+
+
+
+
